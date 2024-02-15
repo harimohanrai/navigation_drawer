@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/home"
+            android:icon="@drawable/baseline_home_24"
+            android:title="Home" />
+        <item
+            android:id="@+id/dashboard"
+            android:icon="@drawable/baseline_dashboard_24"
+            android:title="Dashboard" />
+        <item
+            android:id="@+id/courses"
+            android:icon="@drawable/baseline_bungalow_24"
+            android:title="Courses" />
+        <item
+            android:id="@+id/contactme"
+            android:icon="@drawable/baseline_contact_mail_24"
+            android:title="Know More" />
+    </group>
+
+    <group android:checkableBehavior="single">
+        <item android:title="Verificaton">
+            <menu>
+                <item
+                    android:id="@+id/login"
+                    android:icon="@drawable/baseline_fast_rewind_24"
+                    android:title="Login" />
+                <item
+                    android:id="@+id/logout"
+                    android:icon="@drawable/baseline_fast_forward_24"
+                    android:title="LogOut" />
+            </menu>
+        </item>
+
+    </group>
+
+    <item android:title="Sharing">
+        <menu>
+            <item
+                android:id="@+id/share"
+                android:icon="@drawable/baseline_emergency_share_24"
+                android:title="Share" />
+            <item
+                android:id="@+id/refer"
+                android:icon="@drawable/baseline_co_present_24"
+                android:title="Refer" />
+
+        </menu>
+
+    </item>
+
+
+</menu>
